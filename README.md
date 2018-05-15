@@ -12,6 +12,6 @@
 ### Dimensionality Reduction: 
 #### 
 ### Principal Components Analysis:
-#### Used to extract the dominant patterns in a data matrix by maximizing variance
+#### High dimensional analytic technique used to extract the dominant patterns in a data matrix by maximizing variance
 ### SNAP.py (SNAP for Python) - Used to compare and analyze netowrks -> can be applied to genome networks, good for large scale networks
 #### Two versions: C++ and Python, combined for preformance and flexibility
