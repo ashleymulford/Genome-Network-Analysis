@@ -1,5 +1,6 @@
 # Genome-Network-Analysis
-## Creation of Genome Netowrks:
+## Creation of Genome Networks:
+### Created ficticious data to create and test PCA program. From there, real data provided by bioinformatics department was applied to create genome network and generate PCA plots. 
 ### Genome Networks:
 #### Used to show relationships between multiple genomes (both within and between species), with "nodes" representing individual genomes, and "edges" connecting related genomes together
 #### Multiple different netowrks can be produce for the same nodes through different methods (using different tools and thresholds)
