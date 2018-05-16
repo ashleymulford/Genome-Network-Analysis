@@ -13,5 +13,5 @@
 #### 
 #### Principal Components Analysis:
 ##### Dimensionality reduction technique used to extract the dominant patterns in a data matrix by maximizing variance. For a multidimensional data set, two principle components are derived, which function as new dimensions for the data set, so a visual representation can be created to show the relationships within a complex data matrix. The first principle component is derived by finding the dimension that accounts for the most variation, the second is orthogonal to the first, with the data falling around the first component.
-### SNAP.py (SNAP for Python) - Used to compare and analyze netowrks -> can be applied to genome networks, good for large scale networks
-#### Two versions: C++ and Python, combined for preformance and flexibility
+#### SNAP.py (SNAP for Python) - Used to compare and analyze netowrks -> can be applied to genome networks, good for large scale networks
+##### Two versions: C++ and Python, combined for preformance and flexibility
