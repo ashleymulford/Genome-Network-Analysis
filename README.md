@@ -12,7 +12,7 @@
 #### To access this notebook, you must have Anaconda downloaded and installed onto your laptop or computer. For further details about downloading Jupyter, go to this link: https://jupyter.org/install
 ### Explanation of files:
 #### within the genome_network_code sub-folder inside of the genome_network_code folder, there is a folder titled "virus_files". transfer csv files into this folder. (make sure that the csv files are names only with the sample name - as seen with the files already in that folder). Any files you don't need to be a part of the edge list, remove from that folder.
-#### within the genome_network_code sub-folder there is also a tsv file titled "cooccurance" (yes it is spelled wrong, change it if you'd like). This displays the output of the code, the edge list. If you'd like to save it, "save as" and title it something else other than "cooccurance".
+#### within the genome_network_code sub-folder there is also a tsv file titled "cooccurance" (yes it is spelled wrong, change it if you'd like). This displays the output of the code, the edge list. If you'd like to save it, "save as" and title it something other than "cooccurance".
 ### NOTE: do not open csv files in excel - this will corrupt this file and render it unreadable to the code. Rather, open it in a text editor. Additionally, if there are quotation marks around each line of the csv file, it will also be unreadable to the code.
 #### In the same sub-folder, there should be an IPYNB file. This is the code that is to be opened in Jupyter.
 #### bacteria_virus_analysis is the alternate file with bacterial data that the code works with to produce an edge list. You can change the name of the file the code works with in the code, explained later.
@@ -22,6 +22,7 @@
 #### scroll down to "In [8]". This is the code to run. To replace the bacterial data provided with the bacterial data desired (in .csv format), replace "bacteria_virus_data" with the title of the desired bacterial data file.
 #### now scroll to the top and run each part of the code. An edge list should be procuded at the bottom.
 #### to save this as a file, go into the folder on your computer and open the cooccurance.tsv file and "save as".
+#### you now have an edge list as a .tsv file! This file can be used with Cytoscape to produce a network 
 
 
 
