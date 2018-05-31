@@ -4,7 +4,7 @@
 
 
 ## Creation of Genome Networks:
-### Data provided by bioinformatics department was applied to create genome networks. This data was collected from water samples from Lake Michigan. A total of 31 samples were collected over the course of 12 weeks. DNA and RNA from viruses and bacteria were isolated, sequenced, and BLASTed (for species identification), and then compiled into data tables, containing nomenclature and a corresponding quantity for each water sample. The data worked with in this project was given in .cvs format. 
+### Data provided by the bioinformatics department was applied to create genome networks. This data was collected from water samples from Lake Michigan. A total of 31 samples were collected over the course of 12 weeks. DNA and RNA from viruses and bacteria were isolated, sequenced, and BLASTed (for species identification), and then compiled into data tables, containing nomenclature and a corresponding quantity for each water sample. The data worked with in this project was given in .cvs format. 
 ### Genome Networks:
 #### Used to show relationships between multiple genomes (both within and between species), with "nodes" representing individual genomes, and "edges" connecting related genomes together
 
