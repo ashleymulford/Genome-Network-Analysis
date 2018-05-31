@@ -15,7 +15,7 @@
 #### within the genome_network_code sub-folder there is also a tsv file titled "cooccurance" (yes it is spelled wrong, change it if you'd like). This displays the output of the code, the edge list. If you'd like to save it, "save as" and title it something other than "cooccurance".
 ### NOTE: do not open csv files in excel - this will corrupt this file and render it unreadable to the code. Rather, open it in a text editor. Additionally, if there are quotation marks around each line of the csv file, it will also be unreadable to the code.
 #### In the same sub-folder, there should be an IPYNB file titled "bv_analysis". This is the code that is to be opened in Jupyter.
-#### bacteria_virus_analysis is the alternate file with bacterial data that the code works with to produce an edge list. You can change the name of the file the code works with in the code, explained later.
+#### "bacteria_virus_analysis" is the .csv file with bacterial data that the code works with in addition to the viral data to produce an edge list. You can change the name of the file the code works with in the code, explained later.
 ### Usage:
 #### replace the .csv files in the "virus_files" folder with the sample data that is desired (in .csv format).
 #### If you downloaded and installed everything correctly, you should be able to search within your computer "Anaconda Prompt". Open it and type in (without starting with a space), "jupyter notebook". This should take you to a webpage that displays the folders present on your computer. Locate the "genome_network_code" folder within your computer, open it, and click on the IPYNB file, "bv_analysis". By doing this, you are opening the code in Jupyter.
