@@ -9,7 +9,8 @@
 ### This is a user’s guide for the Genome Network code. This code programmed in a python Jupyter notebook. 
 ### Downloads: 
 #### First, download ‘genome_network_code’. This folder should have the code necessary, a folder titled “virus_data”, and a csv file titled "cooccurence".
-#### To access this notebook, you must have Anaconda downloaded and installed onto your laptop or computer. For further details about downloading Jupyter, go to this link. 
+#### To access this notebook, you must have Anaconda downloaded and installed onto your laptop or computer. For further details about downloading Jupyter, go to this link: https://jupyter.org/install
+### 
 
 
 
