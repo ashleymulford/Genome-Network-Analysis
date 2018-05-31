@@ -6,4 +6,10 @@
 ## Creation of Genome Networks:
 ### Data provided by the bioinformatics department was applied to create genome networks. This data was collected from water samples from Lake Michigan. A total of 31 samples were collected over the course of 12 weeks. DNA and RNA from viruses and bacteria were isolated, sequenced, and BLASTed (for species identification), and then compiled into data tables, containing nomenclature and a corresponding quantity for each water sample. The data worked with in this project was given in .cvs format. From there we created python code in a jupyter notebook, which uses the packages 'pandas' and 'numpy' to determine co-occurrence in the data. Quantity thresholds are also set in the code, as both the bacterial and viral data are given with quantity values. The bacterial data quantity is given in number of cells found, and we used a threshold of at least 100 cells present for all of our networks. Therefore, a bacterial cell is only counted as present in a sample if t has a count of 100 cells in that sample. Across samples, a bacterial species may be found a dozen times, or only once. However, the data was edited to only include bacterial species that show up at least once, prior to inputting it in the code. As for the viral data, only segements of the genome were found, measured in percent proteins hit. This accounts for the percentage of the genome that was found in a sample. For the viral data, we used different thresholds (25%, 35%, and 50%) allowing for the creation of three different edge lists. These edge lists were then inputted into Cytoscape, a software that generates networks. The final product was three genome networks with different thresholds for varying degrees of correlation. These networks display the co-occurrence between viruses and bacteria, and can be used to predict potential infection relationships.
 ## User Guide for the Code:
-### 
+### This is a user’s guide for the Genome Network code. This code programmed in a python Jupyter notebook. 
+### Downloads: 
+#### First, download ‘genome_network_code’. This folder should have the code necessary, a folder titled “virus_data”, and a csv file titled "cooccurence".
+#### To access this notebook, you must have Anaconda downloaded and installed onto your laptop or computer. For further details about downloading Jupyter, go to this link. 
+
+
+
