@@ -1,18 +1,10 @@
-# Genome-Network-Analysis
+# Genome-Networks
+## Background Information:
+### For our project, we analyzed viral and bacterial data to find co-occurrence across multiple samples of lake water. As viruses cannot reproduce without a host cell, such as a bacterium, the quantity of virus will increase when a particular bacterial species it is capable of infecting is prevalent. By looking at co-occurrence across samples, a correlation indicative of infection can be established. 
+
+
 ## Creation of Genome Networks:
-### Created ficticious data to create and test PCA program. From there, real data provided by bioinformatics department was applied to create genome network and generate PCA plots. 
+### Data provided by bioinformatics department was applied to create genome networks. This data was collected from water samples from Lake Michigan. A total of 31 samples were collected over the course of 12 weeks. DNA and RNA from viruses and bacteria were isolated, sequenced, and BLASTed (for species identification), and then compiled into data tables, containing nomenclature and a corresponding quantity for each water sample. The data worked with in this project was given in .cvs format. 
 ### Genome Networks:
 #### Used to show relationships between multiple genomes (both within and between species), with "nodes" representing individual genomes, and "edges" connecting related genomes together
-#### Multiple different netowrks can be produce for the same nodes through different methods (using different tools and thresholds)
-##### VSEARCH/USEARCH - Used to create the genome networks, command is cluster_fast, with thresholds between .35-.75
-##### CD-HIT - another network creating tool
-#
-## Analysis/Comparison of Genome Networks:
-### Challenges of Comparison:
-#### The genome networks by USEARCH, VSEARCH, and CD-HIT are all complex, containing thousands of nodes and edges, with variations occuring between networks procuded by different tools and thresholds. This creates challenges when trying to compare these networks, as they are very large and multidimensional in nature, making it difficult to anaylze them and produce new visuals that display the relationship between the networks
-### Dimensionality Reduction: 
-#### 
-#### Principal Components Analysis:
-##### Dimensionality reduction technique used to extract the dominant patterns in a data matrix by maximizing variance. For a multidimensional data set, two principle components are derived, which function as new dimensions for the data set, so a visual representation can be created to show the relationships within a complex data matrix. The first principle component is derived by finding the dimension that accounts for the most variation, the second is orthogonal to the first, with the data falling around the first component.
-#### SNAP.py (SNAP for Python) - Used to compare and analyze netowrks -> can be applied to genome networks, good for large scale networks
-##### Two versions: C++ and Python, combined for preformance and flexibility
+
